@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content = "text/html, charset=utf-8">
+<title>My Practice</title>
+
+    <head>
+    	<link href='https://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+    	<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:300' rel='stylesheet' type='text/css'>
+        <script src = "jquery-1.11.3.js"></script>
+	<script src = "dynamicVideos.js" ></script>
+    	<link rel = "stylesheet" type = "text/css" href = "myYTStyle.css" >
+	</head>
+<body>
+	<div id="Parent">
+		<div id= "header">
+			<div id = "logo">
+				<a><span></span></a>
+			</div>
+
+				<input id="searchBar" placeholder="Search here for instant videos"></input>
+
+				<a><span id = "myText">YT Instant</span></a>
+
+		</div>
+		<div id="body">
+           <div id = "bodyLeft">
+
+<iframe id= "videoControl"
+src="http://www.youtube.com/embed/XGSy3_Czz8k">
+</iframe>
+           </div>
+           <div id = "bodyRight">
+         
+           </div>
+		</div>
+		<div id = "footer">
+			<div id = "footer-top">
+				<div id="footer-top-inner-top">
+				<a id = "josefin">Share this video</a>
+			    </div>
+                <b>Link   </b><input type="text" id="linkBackGround" placeholder = "http://ytinstant.com/" spellcheck="false">
+                <b>Embed  </b><input type="text" id="linkBack" placeholder = "http://ytinstant.com/" spellcheck="false">
+			</div>
+			<div id = "footer-bottom">
+                <div id = "QuickTip">
+                	<div>
+				<a id = "QuickTipContent"><span id = "josefin">Quick Tip</span></a>
+			</div>
+				<a id = "belowQuickTip"><span>Press <b>Enter</b> to pause the video.</span>
+			    </div>
+
+			    <div id = "makeItViral">
+				<a id = "makeItViralContent">Make It Viral</a>
+			    </div>
+			    <div id = "createdBy">
+			    </div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
